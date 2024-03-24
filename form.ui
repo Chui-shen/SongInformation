@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Music Information Modifier</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="LoadMP3">
@@ -25,13 +25,13 @@
     </property>
     <property name="font">
      <font>
-      <family>Weibei SC</family>
-      <pointsize>24</pointsize>
+      <family>Microsoft Yahei UI Light</family>
+      <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>加载MP3文件</string>
+     <string>Load MP3</string>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="SongName">
@@ -55,13 +55,13 @@
     </property>
     <property name="font">
      <font>
-      <family>Weibei SC</family>
-      <pointsize>24</pointsize>
+      <family>Microsoft Yahei UI Light</family>
+      <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>歌曲名称:</string>
+     <string>Name: </string>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="SingerName">
@@ -85,13 +85,13 @@
     </property>
     <property name="font">
      <font>
-      <family>Weibei SC</family>
-      <pointsize>24</pointsize>
+      <family>Microsoft Yahei UI Light</family>
+      <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>歌手名称:</string>
+     <string>Artist: </string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -105,13 +105,13 @@
     </property>
     <property name="font">
      <font>
-      <family>Weibei SC</family>
-      <pointsize>24</pointsize>
+      <family>Microsoft Yahei UI Light</family>
+      <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>专辑名称:</string>
+     <string>Album: </string>
     </property>
    </widget>
    <widget class="QPlainTextEdit" name="AlbumName">
@@ -135,13 +135,13 @@
     </property>
     <property name="font">
      <font>
-      <family>Weibei SC</family>
-      <pointsize>24</pointsize>
+      <family>Microsoft Yahei UI Light</family>
+      <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>开始转换</string>
+     <string>Start Convertion</string>
     </property>
    </widget>
    <widget class="QPushButton" name="LoadJPG">
@@ -155,13 +155,13 @@
     </property>
     <property name="font">
      <font>
-      <family>Weibei SC</family>
-      <pointsize>24</pointsize>
+      <family>Microsoft Yahei UI Light</family>
+      <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>加载JPEG格式图片</string>
+     <string>Load JPEG</string>
     </property>
    </widget>
    <widget class="QLabel" name="image">
@@ -177,7 +177,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Yulan.jpg</pixmap>
+     <pixmap>./Yulan.jpg</pixmap>
     </property>
    </widget>
   </widget>

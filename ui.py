@@ -3,15 +3,20 @@
 ################################################################################
 ## Form generated from reading UI file 'form.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.3.0
+## Created by: Qt User Interface Compiler version 6.5.3
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide6.QtCore import (QCoreApplication, QMetaObject, QRect)
-from PySide6.QtGui import QPixmap, QFont
-from PySide6.QtWidgets import (QLabel, QPlainTextEdit,
-    QPushButton, QWidget)
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QLabel, QMainWindow, QPlainTextEdit,
+    QPushButton, QSizePolicy, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -24,8 +29,8 @@ class Ui_MainWindow(object):
         self.LoadMP3.setObjectName(u"LoadMP3")
         self.LoadMP3.setGeometry(QRect(11, 20, 181, 61))
         font = QFont()
-        font.setFamilies([u"Weibei SC"])
-        font.setPointSize(24)
+        font.setFamilies([u"Microsoft Yahei UI Light"])
+        font.setPointSize(18)
         font.setBold(True)
         self.LoadMP3.setFont(font)
         self.SongName = QPlainTextEdit(self.centralwidget)
@@ -60,7 +65,7 @@ class Ui_MainWindow(object):
         self.image = QLabel(self.centralwidget)
         self.image.setObjectName(u"image")
         self.image.setGeometry(QRect(440, 20, 300, 300))
-        self.image.setPixmap(QPixmap(u"../Yulan.jpg"))
+        self.image.setPixmap(QPixmap(u"./Yulan.jpg"))
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -69,13 +74,13 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"歌曲信息填写", None))
-        self.LoadMP3.setText(QCoreApplication.translate("MainWindow", u"\u52a0\u8f7dMP3\u6587\u4ef6", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"\u6b4c\u66f2\u540d\u79f0:", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"\u6b4c\u624b\u540d\u79f0:", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"\u4e13\u8f91\u540d\u79f0:", None))
-        self.Start.setText(QCoreApplication.translate("MainWindow", u"\u5f00\u59cb\u8f6c\u6362", None))
-        self.LoadJPG.setText(QCoreApplication.translate("MainWindow", u"\u52a0\u8f7dJPEG\u683c\u5f0f\u56fe\u7247", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Music Information Modifier", None))
+        self.LoadMP3.setText(QCoreApplication.translate("MainWindow", u"Load MP3", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Name: ", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Artist: ", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Album: ", None))
+        self.Start.setText(QCoreApplication.translate("MainWindow", u"Start Convertion", None))
+        self.LoadJPG.setText(QCoreApplication.translate("MainWindow", u"Load JPEG", None))
         self.image.setText("")
     # retranslateUi
 

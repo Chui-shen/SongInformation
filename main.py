@@ -48,18 +48,18 @@ class MainWindow(QMainWindow):
         self.ui.Start.clicked.connect(self.doer)
         
     def JPGloader(self):
-        self.JPG = QtWidgets.QFileDialog.getOpenFileName(self,  "选取专辑图片","./", "All Files (*)")[0]
+        self.JPG = QtWidgets.QFileDialog.getOpenFileName(self,  "Load JPG","./", "All Files (*)")[0]
         self.ui.image.setPixmap(QPixmap(self.JPG))
     
     def MP3loader(self):
-        self.MP3 = QtWidgets.QFileDialog.getOpenFileName(self,  "选取mp3音乐文件","./", "All Files (*)")[0]
+        self.MP3 = QtWidgets.QFileDialog.getOpenFileName(self,  "Load MP3","./", "All Files (*)")[0]
     
     def doer(self):
         SingerName = self.ui.SingerName.toPlainText()
         SongName = self.ui.SongName.toPlainText()
         AlbumName = self.ui.AlbumName.toPlainText()
         setSongInfo(self.MP3, SongName, SingerName, AlbumName, self.JPG)
-        QMessageBox.information(self, "任务已经完成啦！","您原来的文件已被覆盖")
+        QMessageBox.information(self, "Done!","The file is overrided.")
     
 if __name__ == "__main__":
     app = QApplication(sys.argv)
