@@ -1,5 +1,5 @@
 from mutagen.id3 import ID3, APIC, TIT2, TPE1, TALB
-from gui import Ui_MainWindow
+from ui import Ui_MainWindow
 from PySide6.QtWidgets import QMainWindow, QApplication, QMessageBox
 from PySide6 import QtCore, QtWidgets
 from PySide6.QtGui import QPixmap
