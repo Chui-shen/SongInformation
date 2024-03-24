@@ -5,8 +5,8 @@ from PySide6 import QtCore, QtWidgets
 from PySide6.QtGui import QPixmap
 import sys, os
 
-def BabyMode():
-    os.system('pip3 install mutagen')
+# def BabyMode():
+#     os.system('pip3 install mutagen')
 
 QtCore.QCoreApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
 

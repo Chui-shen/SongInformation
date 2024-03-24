@@ -25,7 +25,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Microsoft Yahei UI Light</family>
+      <family>Trebuchet MS</family>
       <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
@@ -55,7 +55,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Microsoft Yahei UI Light</family>
+      <family>Trebuchet MS</family>
       <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
@@ -85,7 +85,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Microsoft Yahei UI Light</family>
+      <family>Trebuchet MS</family>
       <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
@@ -105,7 +105,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Microsoft Yahei UI Light</family>
+      <family>Trebuchet MS</family>
       <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
@@ -135,7 +135,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Microsoft Yahei UI Light</family>
+      <family>Trebuchet MS</family>
       <pointsize>18</pointsize>
       <bold>true</bold>
      </font>
@@ -155,7 +155,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Microsoft Yahei UI Light</family>
+      <family>Trebuchet MS</family>
       <pointsize>18</pointsize>
       <bold>true</bold>
      </font>

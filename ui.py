@@ -29,7 +29,7 @@ class Ui_MainWindow(object):
         self.LoadMP3.setObjectName(u"LoadMP3")
         self.LoadMP3.setGeometry(QRect(11, 20, 181, 61))
         font = QFont()
-        font.setFamilies([u"Microsoft Yahei UI Light"])
+        font.setFamilies([u"Trebuchet MS"])
         font.setPointSize(18)
         font.setBold(True)
         self.LoadMP3.setFont(font)
