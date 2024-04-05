@@ -2,13 +2,14 @@ from mutagen.id3 import ID3, APIC, TIT2, TPE1, TALB
 from ui import Ui_MainWindow
 from PySide6.QtWidgets import QMainWindow, QApplication, QMessageBox
 from PySide6 import QtCore, QtWidgets
-from PySide6.QtGui import QPixmap
+from PySide6.QtGui import QPixmap, QGuiApplication
+from PySide6.QtCore import Qt
 import sys, os
 
 # def BabyMode():
 #     os.system('pip3 install mutagen')
 
-QtCore.QCoreApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
+QGuiApplication.setHighDpiScaleFactorRoundingPolicy(Qt.HighDpiScaleFactorRoundingPolicy.Ceil)
 
 def setSongInfo(songfilepath, songtitle, songartist, songalbum, songpicpath):
     audio = ID3(songfilepath)
